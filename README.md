@@ -31,4 +31,18 @@ yang kedua ada kelas order ini adalah kelas agar user dapat memesan makanannya d
 
 Setiap tindakan yang dilakukan oleh pengguna akan mengakibatkan pemanggilan fungsi-fungsi dalam kelas Order, seperti add_item, remove_item, display_order, dan place_order. Program akan terus berjalan dalam perulangan hingga pengguna memilih opsi "Keluar" (menu nomor 5).
 
-Semoga penjelasan ini dapat membantu dalam memahami lebih rinci tentang program ini. 
+Program tersebut berkaitan dengan OOP karena menggunakan konsep dasar OOP, seperti:
+
+Kelas: Program tersebut menggunakan kelas Menu dan Order untuk merepresentasikan objek-objek yang terkait dengan menu dan pesanan. Kelas-kelas ini memiliki atribut dan metode yang terkait dengan fungsionalitas masing-masing.
+
+Objek: Dalam program tersebut, objek-objek dibuat berdasarkan kelas-kelas yang telah didefinisikan. Misalnya, objek order dibuat berdasarkan kelas Order dan objek menu dibuat berdasarkan kelas Menu. Objek-objek ini memungkinkan manipulasi dan pemanggilan metode yang terkait dengan objek tersebut.
+
+Encapsulation: Program tersebut menggunakan enkapsulasi dengan menyembunyikan detail implementasi kelas di dalamnya. Misalnya, metode add_item dalam kelas Order mengakses informasi item melalui objek menu, tetapi detail implementasi dan struktur data menu tidak perlu diketahui oleh pengguna kelas Order.
+
+Inheritance: Meskipun dalam program tersebut tidak terlihat, tetapi konsep inheritance dapat digunakan dalam pengembangan lebih lanjut. Misalnya, jika ada jenis pesanan khusus, seperti "Pesanan Online" atau "Pesanan Langsung", dapat dibuat kelas turunan dari kelas Order dengan tambahan atribut dan metode yang spesifik untuk jenis pesanan tersebut.
+
+Polymorphism: Dalam program tersebut, tidak terlihat adanya polimorfisme secara langsung. Namun, jika ada metode umum yang diimplementasikan di kelas induk dan diperluas (overridden) di kelas anak, konsep polimorfisme dapat diterapkan.
+
+Dengan menggunakan OOP, program tersebut menjadi lebih terstruktur, modular, dan mudah diorganisasi. Konsep-konsep OOP membantu dalam memisahkan tanggung jawab, mengelompokkan fungsionalitas terkait dalam kelas, serta memungkinkan untuk pengembangan dan perluasan lebih lanjut dengan menggunakan pewarisan dan polimorfisme.
+
+Semoga penjelasan ini dapat membantu dalam memahami lebih rinci tentang program dan hubungannya dengan OOP. 
