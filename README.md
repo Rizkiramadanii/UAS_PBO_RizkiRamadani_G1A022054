@@ -31,4 +31,4 @@ yang kedua ada kelas order ini adalah kelas agar user dapat memesan makanannya d
 
 Setiap tindakan yang dilakukan oleh pengguna akan mengakibatkan pemanggilan fungsi-fungsi dalam kelas Order, seperti add_item, remove_item, display_order, dan place_order. Program akan terus berjalan dalam perulangan hingga pengguna memilih opsi "Keluar" (menu nomor 5).
 
-Semoga penjelasan ini dapat membantu Anda memahami dengan lebih rinci tentang program ini. 
+Semoga penjelasan ini dapat membantu dalam memahami lebih rinci tentang program ini. 
